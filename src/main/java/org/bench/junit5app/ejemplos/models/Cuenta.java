@@ -50,6 +50,7 @@ public class Cuenta {
         this.saldo = this.saldo.add(monto);
     }
 
+    /*
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Cuenta)) {
@@ -61,4 +62,6 @@ public class Cuenta {
         }
         return this.persona.equals(c.getPersona()) && this.saldo.equals(c.getSaldo());
     }
+    */
+
 }
